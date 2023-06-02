@@ -1,0 +1,49 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+    color: rgb(51, 107, 133);
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: cursive;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    background-color: #2a5f77;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+button:hover{
+    background-color: chocolate;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
